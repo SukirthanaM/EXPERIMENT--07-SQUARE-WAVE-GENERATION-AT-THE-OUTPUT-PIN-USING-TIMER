@@ -226,8 +226,11 @@ void assert_failed(uint8_t *file, uint32_t line)
 
 ```
 ## Output screen shots of proteus  :
+500
 <img width="1374" height="874" alt="image" src="https://github.com/user-attachments/assets/773c7a5c-7dcf-40d2-b54c-3a9d9df7887a" />
+700
 <img width="1377" height="870" alt="image" src="https://github.com/user-attachments/assets/bf2ab9c0-171b-402f-92cc-138bc0beb73c" />
+900
 <img width="1374" height="877" alt="image" src="https://github.com/user-attachments/assets/1f827b2c-c33e-4968-b43e-80a83c0cbcba" /> 
  
  ## CIRCUIT DIAGRAM (EXPORT THE GRAPHICS TO PDF AND ADD THE SCREEN SHOT HERE): 
@@ -236,25 +239,25 @@ void assert_failed(uint8_t *file, uint32_t line)
 ## DUTY CYCLE AND FREQUENCY CALCULATION 
 FOR PULSE AT 500
 
-TON = 
-TOFF=
-TOTAL TIME = 
-FREQUENCY = 1/(TOTAL TIME)
+TON = 30
+TOFF = 30
+TOTAL TIME = 60ms
+FREQUENCY = 1/(TOTAL TIME) = 1/(60) = 16Hz
 
 FOR PULSE AT 700
 
-TON = 
-TOFF=
-TOTAL TIME = 
-FREQUENCY = 1/(TOTAL TIME)
+TON = 40
+TOFF = 20
+TOTAL TIME = 60ms
+FREQUENCY = 1/(TOTAL TIME) = 1/(60) = 16Hz
 
 
 FOR PULSE AT 900
 
-TON = 
-TOFF=
-TOTAL TIME = 
-FREQUENCY = 1/(TOTAL TIME)
+TON = 56
+TOFF = 4
+TOTAL TIME = 60ms
+FREQUENCY = 1/(TOTAL TIME) = 1/(60) = 16Hz
 
 
 ## Result :
